@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    background-color: rgba(42, 42, 42, 0.93);
+    padding: 10px 20px ;
+    display: flex;
+    align-items: center;
+}
+h1 {
+    color: white;
+    flex: 1;
+}
+ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+.active {
+    font-weight: bold;
+}
+button.btn {
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(114, 155, 234);
+    padding: 3px 5px;
+    border: 3px solid black;
+    box-shadow: 4px 4px black;
+}
